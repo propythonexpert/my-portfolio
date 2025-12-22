@@ -538,6 +538,24 @@ margin-top: 3%;
   gap: 1rem;
   animation: loop 10s linear infinite;
 }
+@media (max-width: 768px) {
+  .tag-list {
+    width: 100%;        /* Full width */
+    padding: 0 1rem;    /* Thoda padding left-right */
+    overflow-x: auto;    /* Scroll allow agar overflow ho */
+  }
+
+  .inner {
+    width: max-content;   /* Flex items ke according width */
+    gap: 0.5rem;          /* Thoda kam gap mobile ke liye */
+    animation: none;      /* Optional: animation disable mobile me */
+  }
+
+  .tag {
+    font-size: 1.2rem;    /* Thoda chhota font */
+    padding: 0.5rem 0.8rem;
+  }
+}
 
 .tag{
   display: flex;
