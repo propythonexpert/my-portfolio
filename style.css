@@ -691,6 +691,9 @@ margin-top: 3%;
   padding: 6rem 2rem;
   width: 100%;
   background: var(--bg-primary);
+  align-items: center;
+  justify-content: center;
+
 }
 
 .contact-section .section-title {
@@ -701,9 +704,8 @@ margin-top: 3%;
 /* Grid */
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
-  max-width: 1400px;
+  max-width: 800px;
   margin: auto;
 }
 
